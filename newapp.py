@@ -45,4 +45,5 @@ if st.button("🔍 Predict Price"):
 
     st.success(f"### 💵 Estimated Car Price: ₹ {price:,.2f} lakhs")
 
-    st.balloons()
+    st.toast("Task completed!")
+
